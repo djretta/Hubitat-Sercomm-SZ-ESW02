@@ -6,6 +6,7 @@
  *  Hubitat Smart Plug driver designed to pass power monitoring data through from Hubitat to Home Assistant. 
  *  Likely does not conform to Hubitat driver standards, but works well for my use case.
  *  Majorly coded using Claude AI with some manual tuning, cleaning, and reviewing.
+ *  Also works fine with SZ-ESW02N-CZ3
  *
  *  - Power: raw mW (INT24 BE) / 1,000 -> W
  *  - Offline detection: marks offline if no message received in last 10s
